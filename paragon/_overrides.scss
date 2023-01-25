@@ -8,7 +8,15 @@
       max-height: 80px;
       height: 80px !important;
     }
-  }
-  a{
-    color: #3a2562 !important;
-  }
+    .learning-header .course-title-lockup .course-title{
+        margin-top: 8px !important;
+    }
+}
+  dropdown-item:focus, .dropdown-item:hover {
+    background-color: #3a2562 !important;
+    color: #ffff !important;
+
+}
+.learning-header .course-title-lockup .small {
+    display: none !important;
+}
