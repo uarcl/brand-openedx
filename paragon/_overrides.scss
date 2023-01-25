@@ -16,9 +16,6 @@
       max-height: 80px;
       height: 80px !important;
     }
-    .learning-header .course-title-lockup .course-title{
-        margin-top: 8px !important;
-    }
 }
 .learning-header .course-title-lockup .small {
     display: none !important;
@@ -29,7 +26,7 @@
 .user-dropdown .dropdown-item{
     color: $primary;
 }
-.learning-header .container{
+.learning-header .container-xl{
     justify-content: space-between !important;
 }
 .learning-header .course-title-lockup a{
