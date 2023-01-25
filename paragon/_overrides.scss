@@ -4,6 +4,9 @@
     .learning-header {
       min-height: 100px;
     }
+    .learning-header .logo {
+        height: unset !important;
+    }
     .learning-header .logo img{
       max-height: 80px;
       height: 80px !important;
