@@ -1,6 +1,11 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
-@media screen and (min-width: 768px){
+@media (max-width: 768px){
+    .course-title-lockup{
+        display: none !important;
+    }
+}
+@media (min-width: 769px){
     .learning-header {
       min-height: 100px;
     }
@@ -15,11 +20,18 @@
         margin-top: 8px !important;
     }
 }
-  dropdown-item:focus, .dropdown-item:hover {
-    background-color: #3a2562 !important;
-    color: #ffff !important;
-
-}
 .learning-header .course-title-lockup .small {
+    display: none !important;
+}
+.course-tabs-navigation a.nav-link{
+    color: $primary;
+}
+.user-dropdown .dropdown-item{
+    color: $primary;
+}
+.learning-header .container{
+    justify-content: space-between !important;
+}
+.learning-header .course-title-lockup a{
     display: none !important;
 }
