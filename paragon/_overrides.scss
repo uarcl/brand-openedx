@@ -4,9 +4,6 @@
     .course-title-lockup{
         display: none !important;
     }
-    main#main-content > .container-xl{
-        padding: 12px 12px 100px;
-    }
     .card.pgn__card > .pgn__card-header{
         flex-direction: column;
         align-items: center;
@@ -29,9 +26,6 @@
       max-height: 80px;
       height: 80px !important;
     }
-    main#main-content > .container-xl{
-        padding: 32px 32px 100px;
-    }
 }
 .learning-header .course-title-lockup .small {
     display: none !important;
@@ -47,10 +41,4 @@
 }
 .learning-header .course-title-lockup a{
     display: none !important;
-}
-main#main-content > .container-xl{
-    box-shadow: 0 3px 3px -2px rgba(0,0,0,.2),0 3px 4px 0 rgba(0,0,0,.14),0 1px 8px 0 rgba(0,0,0,.12)!important;
-    min-height: calc(100vh - 200px);
-    border-top-left-radius: 0.375rem;
-    border-top-right-radius: 0.375rem;
 }
