@@ -85,7 +85,7 @@ main{
       background-color: #5708ab;
       color: #fff;
       border-radius: 12px;
-      padding: 2px 7px;
+      padding: 4px 7px;
       font-family: "Asap",sans-serif;
       font-size: 12px;
       font-weight: 700;
@@ -103,16 +103,17 @@ main{
       background-color: #d10a17;
       color: #fff;
       border-radius: 12px;
-      padding: 2px 7px;
+      padding: 4px 7px;
       font-family: "Asap",sans-serif;
       font-size: 12px;
       font-weight: 700;
       margin: 0 12px;
+      min-width: 110px;
   }
   .btn-uar-header-icon{
     margin-right: 9px;
   }
-  .btn-uar-lang-sel{
+  .btn-uar-lang-sel:hover{
     color: #fff !important;
     background-color: #D10A1794 !important;
   }
@@ -216,23 +217,19 @@ main{
     text-decoration: none !important;
   }
   .uar-footer{
-    position: sticky;
-      bottom: 0;
       width: 100% !important;
       min-width: 100% !important;
-      min-height: 46px;
-      max-height: 46px;
-      height: 46px;
+      background-color: #5708ab !important;
   }
   @media (max-width: 768px){
     .uar-footer-logo{
-      max-height: 16px;
+      max-height: 64px;
       padding: 0 4px;
     }
   }
   @media (min-width: 768px){
     .uar-footer-logo{
-      max-height: 28px;
+      max-height: 64px;
       padding: 0 4px;
     }
   }
