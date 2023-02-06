@@ -21,18 +21,19 @@
         height: unset !important;
     }
     .learning-header .logo img{
-      max-height: 60px;
-      height: 60px !important;
+      max-height: 49px;
+      height: 49px !important;
     }
 }
 .learning-header {
+    background-color: #fff;
+    height: 140px!important;
+    max-height: 140px!important;
+    min-height: 140px!important;
     position: sticky;
     top: 0;
     z-index: 9999;
-    background-color: #fff;
-    min-height: 60px !important;
-    height: 60px !important;
-    max-height: 60px !important;
+    width: 100%;
 }
 .learning-header .course-title-lockup .small {
     display: none !important;
@@ -43,12 +44,16 @@
 .user-dropdown .dropdown-item{
     color: $primary;
 }
-.learning-header .container-xl{
-    justify-content: space-between !important;
-}
 .learning-header .course-title-lockup a{
     display: none !important;
 }
 main{
     min-height: calc(100vh - 106px);
+    padding-top: 12px;
+}
+.btn{
+    border-radius: 12px !important;
+}
+.btn:focus:before{
+    border: none !important;
 }
