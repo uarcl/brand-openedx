@@ -23,6 +23,10 @@
     }
 }
 @media (min-width: 769px){
+    .learning-header {
+        position: sticky;
+        top: 0;
+    }
     .learning-header .logo {
         height: unset !important;
     }
@@ -36,8 +40,6 @@
     height: 140px!important;
     max-height: 140px!important;
     min-height: 140px!important;
-    position: sticky;
-    top: 0;
     z-index: 9999;
     width: 100%;
 }
@@ -88,7 +90,9 @@ main{
       font-size: 12px;
       font-weight: 700;
       margin: 0 6px;
-      max-height: 24px;
+  }
+  .btn-uar-header > span, .btn-uar-lang-sel > span{
+    line-height: 1;
   }
   .btn.btn-uar-header:hover{
     background-color: #270089 !important;
@@ -103,8 +107,14 @@ main{
       font-family: "Asap",sans-serif;
       font-size: 12px;
       font-weight: 700;
-      margin: 0 6px;
-      max-height: 24px;
+      margin: 0 12px;
+  }
+  .btn-uar-header-icon{
+    margin-right: 9px;
+  }
+  .btn-uar-lang-sel{
+    color: #fff !important;
+    background-color: #D10A1794 !important;
   }
   .uar-bottom-header{
     border-bottom: 1px solid #5708ab;
