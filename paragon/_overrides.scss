@@ -1,6 +1,12 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
+//header        ***********************************************
+//header        ***********************************************
+//header        ***********************************************
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
+
 @media (max-width: 768px){
     .course-title-lockup{
         display: none !important;
@@ -57,3 +63,167 @@ main{
 .btn:focus:before{
     border: none !important;
 }
+@media (max-width: 768px){
+    .uar-logo-header{
+      max-height: 40px !important;
+    }
+  }
+  .uar-top-header{
+    min-height: 46px;
+      background-color: #fff;
+      height: 46px;
+      width: 100%;
+      max-height: 46px;
+  }
+  .uar-top-header-container{
+    background-color: #b4b3df;
+  }
+  .btn-uar-header{
+    border: 2px solid white;
+      background-color: #5708ab;
+      color: #fff;
+      border-radius: 12px;
+      padding: 2px 7px;
+      font-family: "Asap",sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      margin: 0 6px;
+      max-height: 24px;
+  }
+  .btn.btn-uar-header:hover{
+    background-color: #270089 !important;
+    color:#fff !important;
+  }
+  .btn-uar-lang-sel{
+    border: 2px solid white;
+      background-color: #d10a17;
+      color: #fff;
+      border-radius: 12px;
+      padding: 2px 7px;
+      font-family: "Asap",sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      margin: 0 6px;
+      max-height: 24px;
+  }
+  .uar-bottom-header{
+    border-bottom: 1px solid #5708ab;
+      padding: 20px 12px !important;
+  }
+
+  //footer      ***********************************************
+  //footer      ***********************************************
+  //footer      ***********************************************
+
+  .btn-uar-footer:hover::before{
+    opacity: .08;
+  }
+  .btn-uar-footer::before{
+    background-color: currentColor;
+      border-radius: inherit;
+      bottom: 0;
+      color: inherit;
+      content: "";
+      left: 0;
+      opacity: 0;
+      pointer-events: none;
+      position: absolute;
+      right: 0;
+      top: 0;
+      -webkit-transition: opacity .2s cubic-bezier(.4,0,.6,1);
+      transition: opacity .2s cubic-bezier(.4,0,.6,1);
+  }
+  .btn-uar-footer{
+    height: 28px;
+      min-width: 45px;
+      padding: 0;
+      color: #fff!important;
+      caret-color: #fff!important;
+      font-size: .75rem;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-radius: 4px;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      font-weight: 700;
+      letter-spacing: .025em;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      outline: 0;
+      position: relative;
+      text-decoration: none;
+      text-indent: 0.025em;
+      text-transform: uppercase;
+      -webkit-transition-duration: .28s;
+      transition-duration: .28s;
+      -webkit-transition-property: opacity,-webkit-box-shadow,-webkit-transform;
+      transition-property: opacity,-webkit-box-shadow,-webkit-transform;
+      transition-property: box-shadow,transform,opacity;
+      transition-property: box-shadow,transform,opacity,-webkit-box-shadow,-webkit-transform;
+      -webkit-transition-timing-function: cubic-bezier(.4,0,.2,1);
+      transition-timing-function: cubic-bezier(.4,0,.2,1);
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+      background-color: transparent;
+      border-style: none;
+  }
+  .btn-uar-footer > span{
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      color: inherit;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+      flex: 1 0 auto;
+      -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+      justify-content: inherit;
+      line-height: normal;
+      position: relative;
+      -webkit-transition: inherit;
+      transition: inherit;
+      -webkit-transition-property: opacity;
+      transition-property: opacity;
+      color: #fff!important;
+      caret-color: #fff!important;
+      text-transform: none;
+      text-decoration: none !important;
+  }
+  .btn-uar-footer:hover{
+    text-decoration: none !important;
+  }
+  .uar-footer{
+    position: sticky;
+      bottom: 0;
+      width: 100% !important;
+      min-width: 100% !important;
+      min-height: 46px;
+      max-height: 46px;
+      height: 46px;
+  }
+  @media (max-width: 768px){
+    .uar-footer-logo{
+      max-height: 16px;
+      padding: 0 4px;
+    }
+  }
+  @media (min-width: 768px){
+    .uar-footer-logo{
+      max-height: 28px;
+      padding: 0 4px;
+    }
+  }
+  
