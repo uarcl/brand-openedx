@@ -242,4 +242,35 @@ main{
   .uar-font-15p{
     font-size: 15px !important;
   }
-  
+  .uar-footer-icon-container{
+    min-width: 32px;
+    min-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .uar-footer-icon-container span{
+    margin-left: 4px;
+  }
+  .uar-footer-icon{
+    min-width: 16px;
+    min-height: 16px;
+  }
+  .uar-footer-icon-facebook{
+    background-color: #009088;
+  }
+  .uar-footer-icon-instagram{
+    background-color: #270089;
+  }
+  .uar-footer-icon-twitter{
+    background-color: #d10a17;
+  }
+  .uar-footer-icon-youtube{
+    background-color: #e18106;
+  }
+  .uar-footer-icon-linkedin{
+    background-color: #009088;
+  }
+  .uar-footer-icon-spotify{
+    background-color: #270089;
+  }
