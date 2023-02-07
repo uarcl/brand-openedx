@@ -243,18 +243,35 @@ main{
     font-size: 15px !important;
   }
   .uar-footer-icon-container{
-    min-width: 32px;
-    min-height: 32px;
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
+    min-height: 32px;
+    min-width: 32px;
+    height: 32px;
+    width: 32px;
+    max-width: 32px;
+    max-height: 32px;
   }
   .uar-footer-icon-container span{
     margin-left: 4px;
   }
+  .uar-footer-rrss-link{
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff!important;
+    display: flex;
+  }
+  .uar-footer-rrss-link:hover{
+    text-decoration: none !important;
+  }
   .uar-footer-icon{
     min-width: 16px;
     min-height: 16px;
+    width: 16px;
+    height: 16px;
+    max-width: 16px;
+    max-height: 16px;
   }
   .uar-footer-icon-facebook{
     background-color: #009088;
@@ -273,4 +290,10 @@ main{
   }
   .uar-footer-icon-spotify{
     background-color: #270089;
+  }
+  .course-tabs-navigation{
+    border-bottom: none !important;
+  }
+  .uar-footer-link-text{
+    margin-left: 10px !important;
   }
