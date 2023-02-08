@@ -5,7 +5,9 @@
 //header        ***********************************************
 //header        ***********************************************
 
-@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap');
+
 
 @media (max-width: 768px){
     .course-title-lockup{
@@ -90,9 +92,14 @@ main{
       font-size: 12px;
       font-weight: 700;
       margin: 0 6px;
+      max-height: 24px !important;
+    align-items: center;
+    display: flex;
   }
-  .btn-uar-header > span, .btn-uar-lang-sel > span{
+  header .btn.btn-uar-header > span, header .btn.btn-uar-lang-sel > span{
     line-height: 1;
+    font-size:12px !important;
+    font-family: "Asap",sans-serif;
   }
   .btn.btn-uar-header:hover{
     background-color: #270089 !important;
@@ -109,6 +116,9 @@ main{
       font-weight: 700;
       margin: 0 12px;
       min-width: 110px;
+      max-height: 24px !important;
+    align-items: center;
+    display: flex;
   }
   .btn-uar-header-icon{
     margin-right: 9px;
