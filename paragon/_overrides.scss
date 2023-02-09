@@ -61,6 +61,12 @@ main{
     min-height: calc(100vh - 106px);
     padding-top: 12px;
 }
+#root header .logo{
+  margin-right: 0 !important;
+}
+.learning-header .course-title-lockup{
+  margin-left: 0.5rem!important;
+}
 .btn{
     border-radius: 12px !important;
 }
