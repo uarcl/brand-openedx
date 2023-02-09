@@ -115,7 +115,7 @@ main{
       font-size: 12px;
       font-weight: 700;
       margin: 0 12px;
-      min-width: 110px;
+      min-width: 90px;
       max-height: 24px !important;
     align-items: center;
     display: flex;
@@ -312,3 +312,10 @@ main{
   .pgn__checkpoint{
     z-index: 999999 !important;
   }
+ @media (max-width:767px){
+  .uar-bottom-header .btn{
+    padding: 4px 8px !important;
+  font-size: 11px !important;
+  }
+ }
+  
