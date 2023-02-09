@@ -319,7 +319,7 @@ main{
     z-index: 999999 !important;
   }
  @media (max-width:767px){
-  .uar-bottom-header .btn{
+  .uar-bottom-header .btn:not(.dropdown-toggle){
     padding: 4px 8px !important;
   font-size: 11px !important;
   }
