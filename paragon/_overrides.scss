@@ -65,7 +65,7 @@ main{
   margin-right: 0 !important;
 }
 .learning-header .course-title-lockup{
-  margin-left: 0.5rem!important;
+  margin: 0 !important;
 }
 .btn{
     border-radius: 12px !important;
@@ -135,11 +135,16 @@ main{
   }
   .uar-bottom-header{
     border-bottom: 1px solid #5708ab;
-      padding: 20px 12px !important;
+    padding: 8px 12px!important;
   }
   .dropdown.user-dropdown .dropdown-menu{
     min-width: 10rem !important;
   }
+  .course-title-lockup .course-title{
+    max-height: 74px;
+    overflow: hidden;
+  }
+
   //footer      ***********************************************
   //footer      ***********************************************
   //footer      ***********************************************
