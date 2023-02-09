@@ -131,7 +131,9 @@ main{
     border-bottom: 1px solid #5708ab;
       padding: 20px 12px !important;
   }
-
+  .dropdown.user-dropdown .dropdown-menu{
+    min-width: 10rem !important;
+  }
   //footer      ***********************************************
   //footer      ***********************************************
   //footer      ***********************************************
