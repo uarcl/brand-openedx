@@ -171,15 +171,20 @@ header .btn.btn-uar-lang-sel>span {
 }
 
 .course-title-lockup .course-title {
-  max-height: 74px;
-  overflow: hidden;
+  max-height: 74px !important;
+  overflow: hidden !important;
+  font-size: 16px !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
 }
+
 @media (max-width:767px) {
   .uar-bottom-header .btn:not(.dropdown-toggle) {
     padding: 4px 8px !important;
     font-size: 11px !important;
   }
 }
+
 //footer      ***********************************************
 //footer      ***********************************************
 //footer      ***********************************************
@@ -382,4 +387,3 @@ header .btn.btn-uar-lang-sel>span {
 .pgn__checkpoint {
   z-index: 999999 !important;
 }
-
