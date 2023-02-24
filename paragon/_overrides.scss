@@ -6,8 +6,7 @@
 //header        ***********************************************
 
 
-@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Exo+2:wght@700&display=swap');
 
 @media (max-width: 768px) {
   .course-title-lockup {
@@ -27,12 +26,58 @@
     max-height: 40px !important;
     height: 40px !important;
   }
+  .learning-header{
+    height: 115px !important;
+    max-height: 115px !important;
+    min-height: 115px !important;
+  }
+  .learning-header .course-title{
+    font-size: 10px !important;
+  }
+  .btn.btn-uar-lang-sel{
+    padding: 2px 4px !important;
+    margin: 0 6px !important;
+    min-width: 50px !important;
+  }
+  .main-header .course-title{
+    font-size: 10px !important;
+  }
+  .uar-bottom-header{
+    height: 65px !important;
+  }
+  .uar-footer{
+    padding-bottom: 50px;
+  }
+  .uar-top-menu-container{
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    height: 50px !important;
+    border-top: 1px solid #5708ab;
+    left: 0;
+  }
+  .uar-top-menu-container .uar-top-menu{
+      font-size: 8px !important;
+      width: 25% !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  .uar-top-menu-container .uar-top-menu.active{
+      border-top: 2px solid #5708ab !important;
+  }
+  .uar-top-menu-container .uar-top-menu i.fas, .uar-top-menu-container .uar-top-menu div{
+    color: #5708ab !important;
+  }
 }
 
 @media (min-width: 769px) {
   .learning-header {
     position: sticky;
     top: 0;
+    height: 140px !important;
+    max-height: 140px !important;
+    min-height: 140px !important;
   }
 
   .learning-header .logo {
@@ -43,13 +88,16 @@
     max-height: 49px;
     height: 49px !important;
   }
+  .learning-header .course-title{
+    font-size: 12px !important;
+  }
+  .uar-footer{
+    padding-bottom: .5rem;
+  }
 }
 
 .learning-header {
   background-color: #fff;
-  height: 140px !important;
-  max-height: 140px !important;
-  min-height: 140px !important;
   z-index: 9999;
   width: 100%;
 }
@@ -143,7 +191,6 @@ header .btn.btn-uar-lang-sel>span {
   border-radius: 12px;
   padding: 4px 7px;
   font-family: "Asap", sans-serif;
-  font-size: 12px;
   font-weight: 700;
   margin: 0 12px;
   min-width: 90px;
@@ -164,7 +211,6 @@ header .btn.btn-uar-lang-sel>span {
 .uar-bottom-header {
   border-bottom: 1px solid #5708ab;
   padding: 8px 12px !important;
-  height: 90px !important;
 }
 
 .dropdown.user-dropdown .dropdown-menu {
@@ -292,6 +338,7 @@ header .btn.btn-uar-lang-sel>span {
   width: 100% !important;
   min-width: 100% !important;
   background-color: #5708ab !important;
+  padding-top: 0.5rem;
 }
 
 @media (max-width: 768px) {
