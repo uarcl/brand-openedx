@@ -8,7 +8,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Exo+2:wght@700&display=swap');
 
-@media (max-width: 768px) {
+@media (max-width: 767.9px) {
   .course-title-lockup {
     display: none !important;
   }
@@ -26,29 +26,36 @@
     max-height: 40px !important;
     height: 40px !important;
   }
-  .learning-header{
+
+  .learning-header {
     height: 115px !important;
     max-height: 115px !important;
     min-height: 115px !important;
   }
-  .learning-header .course-title{
+
+  .learning-header .course-title {
     font-size: 10px !important;
   }
-  .btn.btn-uar-lang-sel{
+
+  .btn.btn-uar-lang-sel {
     padding: 2px 4px !important;
     margin: 0 6px !important;
     min-width: 50px !important;
   }
-  .main-header .course-title{
+
+  .main-header .course-title {
     font-size: 10px !important;
   }
-  .uar-bottom-header{
+
+  .uar-bottom-header {
     height: 65px !important;
   }
-  .uar-footer{
+
+  .uar-footer {
     padding-bottom: 50px;
   }
-  .uar-top-menu-container{
+
+  .uar-top-menu-container {
     position: fixed;
     z-index: 999;
     bottom: 0;
@@ -56,28 +63,36 @@
     border-top: 1px solid #5708ab;
     left: 0;
   }
-  .uar-top-menu-container .uar-top-menu{
-      font-size: 8px !important;
-      width: 25% !important;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
+
+  .uar-top-menu-container .uar-top-menu {
+    font-size: 8px !important;
+    width: 25% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
-  .uar-top-menu-container .uar-top-menu .uar-top-menu-icon{
+
+  .uar-top-menu-container .uar-top-menu .uar-top-menu-icon {
     width: 18px !important;
     height: 18px !important;
     color: #5708ab !important;
   }
-  .uar-top-menu-container .uar-top-menu.active{
-      border-top: 2px solid #5708ab !important;
+
+  .uar-top-menu-container .uar-top-menu.active {
+    border-top: 2px solid #5708ab !important;
   }
-  .uar-top-menu-container .uar-top-menu i.fas, .uar-top-menu-container .uar-top-menu div{
+
+  .uar-top-menu-container .uar-top-menu i.fas,
+  .uar-top-menu-container .uar-top-menu div {
     color: #5708ab !important;
+  }
+  .uar-bottom-header{
+    height: 65px !important;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .learning-header {
     position: sticky;
     top: 0;
@@ -94,11 +109,23 @@
     max-height: 49px;
     height: 49px !important;
   }
-  .learning-header .course-title{
+
+  .learning-header .course-title {
     font-size: 12px !important;
   }
-  .uar-footer{
+
+  .uar-footer {
     padding-bottom: .5rem;
+  }
+  .uar-top-menu.active {
+    border-bottom: 2px solid #5708ab !important;
+  }
+  .uar-top-menu:hover{
+    background-color: #e9e6e4 !important;
+    color: #454545 !important;
+  }
+  .uar-bottom-header{
+    height: 90px !important;
   }
 }
 
@@ -145,7 +172,7 @@ main {
   border: none !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.9px) {
   .uar-logo-header {
     max-height: 40px !important;
   }
@@ -231,13 +258,15 @@ header .btn.btn-uar-lang-sel>span {
   white-space: nowrap !important;
 }
 
-@media (max-width:767px) {
+@media (max-width:767.9px) {
   .uar-bottom-header .btn:not(.dropdown-toggle) {
     padding: 4px 8px !important;
     font-size: 11px !important;
   }
 }
-.learning-header, .learning-header .course-title-lockup {
+
+.learning-header,
+.learning-header .course-title-lockup {
   min-width: 0;
 }
 
@@ -347,7 +376,7 @@ header .btn.btn-uar-lang-sel>span {
   padding-top: 0.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.9px) {
   .uar-footer-logo {
     max-height: 64px;
     padding: 0 4px;
