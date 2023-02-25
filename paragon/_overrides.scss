@@ -501,6 +501,6 @@ header .btn.btn-uar-lang-sel>span {
   margin-top: 0.5rem !important;
   margin-bottom: 0.5rem !important;
 }
-.instructor-toolbar .dropdown-menu.show{
+[data-testid="instructor-toolbar"] .dropdown-menu.show{
   z-index: 99999;
 }
