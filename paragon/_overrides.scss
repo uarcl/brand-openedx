@@ -199,12 +199,12 @@ main {
 }
 
 .uar-top-header-container {
-  background-color: #b4b3df;
+  background-color: #bcbcbc;
 }
 
 .btn-uar-header {
   border: 2px solid white;
-  background-color: #5708ab;
+  background-color: #d10a17;
   color: #fff;
   border-radius: 12px;
   padding: 4px 7px;
@@ -231,7 +231,7 @@ header .btn.btn-uar-lang-sel>span {
 
 .btn-uar-lang-sel {
   border: 2px solid white;
-  background-color: #d10a17;
+  background-color:#9d0054;
   color: #fff;
   border-radius: 12px;
   padding: 4px 7px;
@@ -384,7 +384,7 @@ header .btn.btn-uar-lang-sel>span {
 .uar-footer {
   width: 100% !important;
   min-width: 100% !important;
-  background-color: #5708ab !important;
+  background-color: #4d4d4d!important;
   padding-top: 0.5rem;
   margin-top: 12px !important;
 }
@@ -503,4 +503,13 @@ header .btn.btn-uar-lang-sel>span {
 }
 [data-testid="instructor-toolbar"] .dropdown-menu.show{
   z-index: 99999 !important;
+}
+.btn.btn-outline-primary{
+  border-color: #4d4d4d !important;
+  color: #4d4d4d !important;
+}
+.btn.btn-outline-primary:hover{
+   background-color: #f3f2f6;
+    border-color: #4d4d4d !important;
+    color: #4d4d4d !important;
 }
