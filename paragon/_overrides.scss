@@ -154,10 +154,35 @@
 .course-tabs-navigation a.nav-link {
   color: $primary;
 }
-
-.user-dropdown .dropdown-item {
-  color: $primary;
+.dropdown.user-dropdown button.dropdown-toggle{
+    font-size: 14px !important;
+    max-height: 36px !important;
 }
+.dropdown.user-dropdown button.dropdown-toggle svg.fa-user-circle{
+  font-size: 18px !important;
+}
+.dropdown.user-dropdown button.dropdown-toggle span{
+    max-width: 80px;
+    min-width: 80px;
+    text-align: start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji!important;
+}
+.dropdown.user-dropdown .dropdown-menu {
+  min-width: 10rem !important;
+}
+.dropdown.user-dropdown .dropdown-menu a.dropdown-item{
+  font-size: 14px !important;
+  color: #4d4d4d;
+  height: 40px !important;
+  display: flex;
+  align-items: center;
+  padding: 4px 16px !important;
+}
+// .user-dropdown .dropdown-item {
+//   color: $primary;
+// }
 
 .learning-header .course-title-lockup a {
   display: none !important;
@@ -256,10 +281,6 @@ header .btn.btn-uar-lang-sel>span {
 .uar-bottom-header {
   border-bottom: 1px solid #5708ab;
   padding: 8px 12px !important;
-}
-
-.dropdown.user-dropdown .dropdown-menu {
-  min-width: 10rem !important;
 }
 
 .course-title-lockup .course-title {
